@@ -1,0 +1,11 @@
+{
+  "name": "react-slack-app",
+  "version": "1.0.0",
+  "description": "Realtime Slack support frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Singer",
+  "license": "ISC"
+}
