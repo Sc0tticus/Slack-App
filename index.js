@@ -1,2 +1,2 @@
-var alerter = require('./alerter');
-alerter('Heres and alert')
+var alerter = require('./alerter').default;
+alerter('Heres and alert');

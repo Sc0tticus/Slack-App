@@ -1,3 +1,3 @@
-module.exports = function = function(message){
+export default function(message){
   alert(message);
 }
