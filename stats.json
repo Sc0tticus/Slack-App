@@ -1,0 +1,190 @@
+{
+  "errors": [
+    "./index.js\nModule build failed (from ./node_modules/babel-loader/index.js):\nTypeError: Cannot read property 'babel' of undefined\n    at Object.module.exports (/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/node_modules/babel-loader/index.js:38:36)"
+  ],
+  "warnings": [
+    "configuration\nThe 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.\nYou can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/"
+  ],
+  "version": "4.44.1",
+  "hash": "6f8621365acb5def619d",
+  "time": 707,
+  "builtAt": 1598648934214,
+  "publicPath": "",
+  "outputPath": "/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App",
+  "assetsByChunkName": {
+    "main": "bundle.js"
+  },
+  "assets": [
+    {
+      "name": "bundle.js",
+      "size": 1208,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "bundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 279,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "bundle.js"
+      ],
+      "hash": "05e64e74c9db3c55f7b3",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/node_modules/babel-loader/index.js??ref--4!/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/index.js",
+          "name": "./index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 279,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 35,
+            "building": 499
+          },
+          "failed": true,
+          "errors": 1,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "throw new Error(\"Module build failed (from ./node_modules/babel-loader/index.js):\\nTypeError: Cannot read property 'babel' of undefined\\n    at Object.module.exports (/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/node_modules/babel-loader/index.js:38:36)\");"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/node_modules/babel-loader/index.js??ref--4!/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/index.js",
+      "name": "./index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 279,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 35,
+        "building": 499
+      },
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 0,
+      "source": "throw new Error(\"Module build failed (from ./node_modules/babel-loader/index.js):\\nTypeError: Cannot read property 'babel' of undefined\\n    at Object.module.exports (/Users/scottsinger/Desktop/Flatiron/GoLang-Projects/React-Slack-App/node_modules/babel-loader/index.js:38:36)\");"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
