@@ -1,2 +1,1 @@
-var alerter = require('./alerter').default;
-alerter('Heres and alert');
+alert('this is an alert');

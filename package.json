@@ -9,6 +9,7 @@
   "author": "Scott Singer",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^5.3.3",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
